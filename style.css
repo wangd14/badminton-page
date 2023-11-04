@@ -14,13 +14,14 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: rgba(255, 255, 255, 0.955);
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 40px;
     text-decoration: none;
 }
 
 li a:hover {
+    color: rgb(rgba(255, 0, 0, 0.815), green, blue);
     background-color: #111;
   }
 
