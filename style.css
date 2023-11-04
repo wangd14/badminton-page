@@ -18,11 +18,11 @@ li a {
     text-align: center;
     padding: 20px 40px;
     text-decoration: none;
+    border-bottom: 3px solid red;
 }
 
 li a:hover {
-    color: rgba(255, 0, 0, 0.815);
-    background-color: #111;
+    border-bottom: 3px solid white;
   }
 
 li a button {
