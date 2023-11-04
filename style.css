@@ -21,7 +21,7 @@ li a {
 }
 
 li a:hover {
-    color: rgb(rgba(255, 0, 0, 0.815), green, blue);
+    color: rgba(255, 0, 0, 0.815);
     background-color: #111;
   }
 
