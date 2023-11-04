@@ -13,6 +13,7 @@ li {
   }
 
 li a {
+    font-family: serif;
     display: block;
     color: rgba(255, 255, 255, 0.955);
     text-align: center;
@@ -25,10 +26,9 @@ li a:hover {
     border-bottom: 3px solid white;
   }
 
-li a button {
-    font-family:'Times New Roman', Times, serif; 
-    font-weight: 400;
-    font-size: 16px;
-    color:white 
-    
+li img{
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-bottom: 3px solid white;
 }
