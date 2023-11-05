@@ -38,6 +38,6 @@ li a:hover {
 li img{
   float: right;
   background-color: white;
-  width: 58px;
+  width: 58px;  /* also sets the height */
   border: 3px solid white;
 }
