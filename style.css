@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-title {
+h1 {
   margin-bottom: 0;
+}
+
+#creators {
+  
+
+
+  
+  
+  margin: 0 0 20px 0;
 }
 
 h1 {
@@ -14,7 +23,6 @@ p {
 div {
   font-family: "Roboto", sans-serif;
   margin-bottom: 20;
-}
 
 ul {
    font-family: "Roboto", sans-serif;
@@ -23,6 +31,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #ff0000;
+    height: 58;
   }
 
 li {
@@ -34,10 +43,9 @@ li a {
     font-family: "Roboto", sans-serif;;
     display: block;
     color: rgba(255, 255, 255, 0.955);
-    text-align: center;
-    padding: 20px 40px;
+    padding: 21px 40px;
     text-decoration: none;
-    border-bottom: 3px solid red;
+    border: 3px #ff0000;
 }
 
 li a:hover {
@@ -45,8 +53,8 @@ li a:hover {
   }
 
 li img{
+  float: right;
   background-color: white;
-  width: 60px;
-  height: 60px;
-  border-bottom: 3px solid white;
+  width: 58px;
+  border: 3px solid white;
 }
