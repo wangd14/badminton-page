@@ -4,14 +4,24 @@
   --navheight: 90px;
 }
 
-h1 {  
-  margin-bottom: 0;
-}
-
 #creators {
   margin: 0 0 20px 0;
+  }
+
+h1 {  
+  margin-bottom: 0;
+  font-family: "Roboto";
 }
 
+h2 {
+  margin-bottom: 40px;
+  padding: 10px 650px;
+}
+
+div {
+  font-family: "Roboto";
+  margin-bottom: 20px;
+  }
 
 ul {
 
@@ -26,26 +36,36 @@ ul {
 
 li {
   float: left;
+  font-family: "Roboto", sans-serif;
 }
 
 li a {
 
   font-family: serif;
-  line-height: 18px;
+
   display: block;
   color: rgba(255, 255, 255, 0.955);
+  background-color: #ff0000;
+
   text-decoration: none;
+  
+  line-height: 18px;
+  font-family: "Roboto";
+  list-style-type: none;
+  overflow: hidden;
+
 
   padding: 36px 50px 33px;  
   border-bottom: 3px solid rgb(255, 0, 0);
 }
 
 li a:hover {
-  border-bottom: 3px solid rgb(255, 255, 255);
+  border-bottom: 3.2px solid rgb(255, 255, 255);
 }
 
 li img{
-float: right;
-background-color: white;
-width: var(--navheight);  /* also sets the height */
+  float: right;
+  width: var(--navheight);  /* also sets the height */
+  background-color: white;
 }
+
