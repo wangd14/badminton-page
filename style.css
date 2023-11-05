@@ -5,27 +5,25 @@ h1 {
 }
 
 #creators {
-  
-
-
-  
-  
   margin: 0 0 20px 0;
-}
+  }
 
 h1 {
   font-family: "Roboto", sans-serif;
+  }
+
+h2 {
+  margin-bottom: 40px;
+  padding: 10px 650px;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
-}
 div {
   font-family: "Roboto", sans-serif;
   margin-bottom: 20;
+  }
 
 ul {
-   font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,7 +33,7 @@ ul {
   }
 
 li {
-   font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     float: left;
   }
 
@@ -58,3 +56,4 @@ li img{
   width: 58px;
   border: 3px solid white;
 }
+
