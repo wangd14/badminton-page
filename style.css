@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-h1 {
+:root {
+  --navheight: 90px;
+}
+
+h1 {  
   margin-bottom: 0;
 }
 
@@ -10,34 +14,38 @@ h1 {
 
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ff0000;
-    height: 58;
-  }
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0000;
+  height: var(--navheight);
+
+}
 
 li {
-    float: left;
-  }
+  float: left;
+}
 
 li a {
-    font-family: serif;
-    display: block;
-    color: rgba(255, 255, 255, 0.955);
-    padding: 21px 40px;
-    text-decoration: none;
-    border: 3px #ff0000;
+
+  font-family: serif;
+  line-height: 18px;
+  display: block;
+  color: rgba(255, 255, 255, 0.955);
+  text-decoration: none;
+
+  padding: 36px 50px 33px;  
+  border-bottom: 3px solid rgb(255, 0, 0);
 }
 
 li a:hover {
-    border-bottom: 3px solid white;
-  }
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
 
 li img{
-  float: right;
-  background-color: white;
-  width: 58px;  /* also sets the height */
-  border: 3px solid white;
+float: right;
+background-color: white;
+width: var(--navheight);  /* also sets the height */
 }
