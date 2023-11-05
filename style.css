@@ -4,11 +4,20 @@ title {
   margin-bottom: 0;
 }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
 div {
+  font-family: "Roboto", sans-serif;
   margin-bottom: 20;
 }
 
 ul {
+   font-family: "Roboto", sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,11 +26,12 @@ ul {
   }
 
 li {
+   font-family: "Roboto", sans-serif;
     float: left;
   }
 
 li a {
-    font-family: serif;
+    font-family: "Roboto", sans-serif;;
     display: block;
     color: rgba(255, 255, 255, 0.955);
     text-align: center;
